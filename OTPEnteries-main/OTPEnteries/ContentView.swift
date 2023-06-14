@@ -17,7 +17,7 @@ struct ContentView: View {
                 .padding(.vertical, 38)
             
             // TODO: Create OTPTextField
-            
+            OTPTextField(numberOfFields: 4)
             Spacer()
             
             Button("Send") {
